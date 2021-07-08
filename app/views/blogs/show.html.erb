@@ -90,7 +90,7 @@
         a small tree mammal.
         <!-- body部分 ここまで -->
       </p>
-      <a href="#">編集</a>
+      <%= link_to "編集", edit_blog_path(@blog) %>
       <a href="#">削除</a>
       <div class="author-case">
          <div class="author-image"></div>
@@ -141,7 +141,7 @@
         <p class="categories-text">Adventure(23)</p>
         <p class="categories-text">Communication(14)</p>
       </div>
-      
+
     </section>
   </div>
 </main>
